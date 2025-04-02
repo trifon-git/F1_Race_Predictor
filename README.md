@@ -1,76 +1,72 @@
-# F1 Race Predictor
+# F1 Race Prediction App [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://f1-race-predictor.vercel.app)
 
-A machine learning-powered Formula 1 race predictor that forecasts the final grid positions for F1 races. The application uses historical race data from the current season via the Jolpica F1 API to make predictions.
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://f1-race-predictor.vercel.app)
 
-## Features
+A machine learning-powered Formula 1 race prediction application built with Streamlit.
 
-- Fetch real-time F1 data using the Jolpica F1 API
-- Train machine learning models using XGBoost
-- Interactive web interface built with Streamlit
-- Predict race outcomes for any circuit in the current season
-- Visualize predictions using interactive tables
+## 🏎️ Demo
+[Live Demo](https://f1-race-predictor.vercel.app)
 
-## Setup
+![App Screenshot](screenshot.png)
 
-1. Create and activate the virtual environment:
-```bash
-python -m venv f1_venv
-source f1_venv/bin/activate  # On Windows: f1_venv\Scripts\activate
-```
+## ⚡ Quick Start
+Install dependencies and run the app:
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+    pip install -r requirements.txt
+    streamlit run app.py
 
-## Usage
+## 🔧 Features
 
-1. Run the Streamlit app:
-```bash
-streamlit run app.py
-```
+- 📊 Real-time F1 race predictions
+- 📈 Driver performance analysis
+- 🏁 Race-specific feature importance
+- 🔄 Live data updates
+- 📱 Mobile-responsive design
 
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
+## 📦 Dependencies
 
-3. Click the "Train New Model" button in the sidebar to fetch current season data and train the model
+    streamlit
+    pandas
+    numpy
+    scikit-learn
+    requests
 
-4. Select a circuit from the dropdown menu to get race predictions
+## 🚀 Deployment
 
-## Project Structure
+### Deploy on Streamlit Cloud
 
-- `data_fetcher.py`: Handles data retrieval from the Jolpica F1 API
-- `feature_engineering.py`: Processes and transforms raw data into model features
-- `model_trainer.py`: Implements the XGBoost model for race predictions
-- `app.py`: Streamlit web application
-- `requirements.txt`: Python package dependencies
+1. Fork this repository
+2. Sign up for [Streamlit Cloud](https://streamlit.io/cloud)
+3. Create New App > Select your forked repository
 
-## Model Features
+### Deploy on Vercel
 
-The prediction model takes into account various factors including:
-- Driver's historical performance
-- Constructor performance
-- Circuit characteristics
-- Grid position
-- Recent form and consistency
-- DNF (Did Not Finish) rate
+    vercel login
+    vercel
 
-## Dependencies
+## 📊 Data Sources
 
-- Python 3.8+
-- pandas
-- numpy
-- scikit-learn
-- xgboost
-- streamlit
-- plotly
-- requests
+This app uses Formula 1 World Championship data, including:
+- Current season results
+- Qualifying data
+- Driver standings
+- Historical race statistics
 
-## License
+## 🤝 Contributing
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork the repository
+2. Create a feature branch
+3. Commit changes
+4. Push to the branch
+5. Open a pull request
 
-## Acknowledgments
+## 📝 License
 
-- [Jolpica F1 API](https://github.com/jolpica/jolpica-f1) for providing F1 data
-- [Streamlit](https://streamlit.io/) for the web application framework
-- Formula 1 for the amazing sport! 
+MIT License
+
+## 📫 Contact
+
+Trae AI - [@traeai](https://twitter.com/traeai)
+
+Project Link: [https://github.com/traeai/f1-race-predictor](https://github.com/traeai/f1-race-predictor)
