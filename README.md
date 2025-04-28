@@ -1,69 +1,26 @@
-# F1 Race Prediction App [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://f1-race-predictor.vercel.app)
+# 🏎️ F1 Race Predictor
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://f1-race-predictor.vercel.app)
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/YOUR-HF-USERNAME/F1-Race-Predictor)
 
-A machine learning-powered Formula 1 race prediction application built with Streamlit.
+A machine learning-powered Formula 1 race prediction app built with Streamlit.
 
-## 🏎️ Demo
-[Live Demo](https://f1-race-predictor.vercel.app)
+✅ Powered by live data from [FastF1](https://docs.fastf1.dev)  
+✅ Predicts upcoming race results based on recent driver performances  
+✅ Future-proof (no deprecated Ergast API)
 
-![App Screenshot](screenshot.png)
+---
+
+## 🚀 Live Demo
+
+**Coming soon on [Hugging Face Spaces](https://huggingface.co/spaces)!**
+
+---
 
 ## ⚡ Quick Start
-Install dependencies and run the app:
 
-    pip install -r requirements.txt
-    streamlit run app.py
+Install dependencies and run the app locally:
 
-## 🔧 Features
-
-- 📊 Real-time F1 race predictions
-- 📈 Driver performance analysis
-- 🏁 Race-specific feature importance
-- 🔄 Live data updates
-- 📱 Mobile-responsive design
-
-## 📦 Dependencies
-
-    streamlit
-    pandas
-    numpy
-    scikit-learn
-    requests
-
-## 🚀 Deployment
-
-### Deploy on Streamlit Cloud
-
-1. Fork this repository
-2. Sign up for [Streamlit Cloud](https://streamlit.io/cloud)
-3. Create New App > Select your forked repository
-
-### Deploy on Vercel
-
-    vercel login
-    vercel
-
-## 📊 Data Sources
-
-This app uses Formula 1 World Championship data, including:
-- Current season results
-- Qualifying data
-- Driver standings
-- Historical race statistics
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to the branch
-5. Open a pull request
-
-
-## 📫 Contact
-
-Trae AI - [@traeai](https://twitter.com/traeai)
-
-Project Link: [https://github.com/traeai/f1-race-predictor](https://github.com/traeai/f1-race-predictor)
+```bash
+pip install -r requirements.txt
+streamlit run app.py
