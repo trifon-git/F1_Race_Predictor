@@ -1,7 +1,7 @@
 # 🏎️ F1 Race Predictor
 
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/YOUR-HF-USERNAME/F1-Race-Predictor)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://huggingface.co/spaces/Tryfonas/F1_Race_Predictor])
 
 A machine learning-powered Formula 1 race prediction app built with Streamlit.
 
